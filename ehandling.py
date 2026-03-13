@@ -7,3 +7,4 @@ except ZeroDivisionError:
     print("You cant divide by zero")
 else:
     print(f"The answer is {result}")
+    print("This will only execute if there is no exception")
