@@ -5,6 +5,10 @@ try:
     result = num1/num2
 except ZeroDivisionError:
     print("You cant divide by zero")
+except ValueError:
+    print("please enter a number")
 else:
     print(f"The answer is {result}")
     print("This will only execute if there is no exception")
+finally: 
+    print("system closed, thank you for using our program")
